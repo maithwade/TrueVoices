@@ -1,0 +1,190 @@
+openapi: 3.1.0
+info:
+  title: User Authentication API
+  summary: REST APIs for user registration, login and password reset
+  version: '1.0'
+servers:
+  - url: http://localhost:3000/v1
+    description: Local development environment 
+paths: 
+  /auth/register:
+    post:
+      operationId: register-user
+      description: Register a new user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RegisterRequest"
+      responses:
+        201:
+          description: User registered successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RegisterResponse"
+        400:
+          description: Invalid input or passwords do not match
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        409:
+          description: Username or email already exists
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /auth/login:
+    post:
+      operationId: login-user
+      description: Login an existing user
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/LoginRequest"
+      responses:
+        200:
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LoginResponse"
+        400:
+          description: Missing email or password
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        401:
+          description: Incorrect email or password
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /auth/reset-password:
+    post:
+      operationId: reset-password
+      description: Reset the user's password by sending instructions to their email
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ResetPasswordRequest"
+      responses:
+        200:
+          description: Password reset instructions sent to the email
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessMessage"
+        400:
+          description: Invalid or missing email format
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        404:
+          description: Email not associated with any user account
+          content:
+            application/json:
+             schema:
+                $ref: "#/components/schemas/Error"
+components:
+  schemas:
+    RegisterRequest:
+      type: object
+      required:
+        - firstName
+        - lastName
+        - username
+        - email
+        - password
+        - confirmPassword
+      properties:
+        firstName:
+          type: string
+          example: John
+        lastName:
+          type: string
+          example: Doe
+        username:
+          type: string
+          example: johndoe123
+        email:
+          type: string
+          format: email
+          example: johndoe@gmail.com
+        password:
+          type: string
+          format: password
+          example: P@ssw0rd!
+        confirmPassword:
+          type: string
+          format: 
+          example: P@ssw0rd!
+    RegisterResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          example: "User registered successfully"
+        userId:
+          type: string
+        username:
+          type: string
+    LoginRequest:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+          example: johndoe@gmail.com
+        password:
+          type: string
+          format: password
+          example: P@ssw0rd!
+    LoginResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          example: "Login successful"
+        userId:
+          type: string
+        token:
+          type: string
+        expiresIn:
+          type: integer
+          example: 3600
+    ResetPasswordRequest:
+      type: object
+      required:
+        - email
+      properties:
+        email:
+          type: string
+          format: email
+          example: johndoe@gmail.com
+    SuccessMessage:
+      type: object
+      properties:
+        message:
+          type: string
+          example: "Password reset instructions sent to the email"
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+          example: ERR_INVALID_INPUT
+        message:
+            type: string
+            example: "Invalid input provided"

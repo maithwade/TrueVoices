@@ -1,0 +1,257 @@
+{
+ "features": [
+    {
+      "title": "Collectez et affichez des témoignages",
+      "subtitle": "Tout en une seule solution",
+      "description": "Créez une page de destination dédiée pour votre entreprise. Partagez facilement le lien de la page par e-mail, réseaux sociaux ou SMS. La configuration peut être effectuée en deux minutes.",
+      "isComingSoon": false
+    },
+    {
+      "title": "Facile à gérer",
+      "subtitle": "Un tableau de bord pour gérer tous les témoignages",
+      "description": "Vous disposerez d'un tableau de bord simple et épuré pour gérer tous vos témoignages en un seul endroit. C'est comme votre boîte de réception e-mail, mais conçue pour vos preuves sociales !",
+      "isComingSoon": false
+    },
+    {
+      "title": "Plus de preuves sociales",
+      "subtitle": "Pas seulement des témoignages textuels et vidéo",
+      "description": "Gérez les témoignages des réseaux sociaux, des plateformes vidéo et des sites d'avis en un seul endroit !",
+      "isComingSoon": false
+    },
+    {
+      "title": "Intégrer le Wall of Love",
+      "subtitle": "Les meilleurs témoignages réunis en un seul endroit",
+      "description": "Mettez en avant tous vos témoignages préférés. Intégrez-le à votre site Web en moins d'une minute sans nécessiter de compétences en codage !",
+      "isComingSoon": false
+    },
+    {
+      "title": "Suivre les métriques",
+      "subtitle": "Comprendre les performances des témoignages vidéo",
+      "description": "Suivez les métriques de toutes les vidéos intégrées, aidez votre équipe marketing à comprendre les performances et à promouvoir les vidéos les plus performantes.",
+      "isComingSoon": true
+    }
+  ],
+  "ourFeatures": "Nos fonctionnalités",
+  "tryForFree": "Essayez gratuitement",
+  "comingSoon": "Bientôt disponible...",
+  "footer": {
+    "links": [
+      {
+        "text": "À propos",
+        "href": "#",
+        "ariaLabel": "Page À propos"
+      },
+      {
+        "text": "Politique de confidentialité",
+        "href": "#",
+        "ariaLabel": "Page Politique de confidentialité"
+      },
+      {
+        "text": "Contactez-nous",
+        "href": "#",
+        "ariaLabel": "Page Contactez-nous"
+      }
+    ],
+    "copyright": "© {{year}} TrueVoices. Tous droits réservés."
+  },
+  "header": {
+    "title": "TrueVoices",
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "signIn": "Se connecter",
+    "dropdown": {
+      "dashboard": "Tableau de bord",
+      "profile": "Profil",
+      "upgrade": "Mettre à niveau",
+      "logout": "Se déconnecter"
+    }
+  },
+  "hero": {
+    "title": "Bienvenue sur TrueVoices",
+    "subtitle": "Collectez et mettez en valeur des témoignages authentiques de vos clients avec facilité.",
+    "paragraph1": "Les voix de vos clients sont votre outil marketing le plus puissant. Avec TrueVoices, vous pouvez collecter, gérer et intégrer des témoignages sans effort — aucun codage requis.",
+    "paragraph2": "Renforcez la confiance et la crédibilité grâce à des retours authentiques de clients satisfaits. Configurez votre page de témoignages en quelques minutes et voyez votre marque prospérer !",
+    "buttonSignUp": "S'inscrire",
+    "buttonLearnMore": "En savoir plus"
+  },
+  "team": {
+    "title": "Rencontrez notre équipe",
+    "members": [
+      {
+        "name": "Shreya Wanisha",
+        "image": "/TeamImages/ShreyaWanisha.jpeg",
+        "linkedin": "https://www.linkedin.com/in/shreya-wanisha/",
+        "bio": "Développeuse full-stack passionnée par la création d'applications web. Expertise en Java, Spring Boot, React et Node.js."
+      },
+      {
+        "name": "Maithili Wade",
+        "image": "/TeamImages/_DSC9226-Enhanced-NR-3.jpg",
+        "linkedin": "https://www.linkedin.com/in/maithili-wade/",
+        "bio": "Architecte devenue ingénieure logicielle. Explore actuellement l'intersection passionnante entre technologie et design."
+      },
+      {
+        "name": "Jay Vekariya",
+        "image": "/TeamImages/jay.jpeg",
+        "linkedin": "https://www.linkedin.com/in/jay-vekariya/",
+        "bio": "Développeur full-stack spécialisé dans React et Node.js."
+      },
+      {
+        "name": "Harshit Kant",
+        "image": "/TeamImages/harshit.jpeg",
+        "linkedin": "https://www.linkedin.com/in/harshit-kant-hk-0a87864b/",
+        "bio": "Ingénieur logiciel MERN Stack passionné, avec un fort intérêt pour le développement front-end, l'automatisation des tests et l'assurance qualité."
+      }
+    ]
+  },
+  "pricing": {
+  "title": "La manière la plus simple d'augmenter vos ventes",
+  "subtitle": "Commencez avec 12 témoignages texte et 2 témoignages vidéo offerts. Passez à la version supérieure seulement si vous êtes satisfait !",
+  "getStarted": "Commencer",
+  "buyNow": "Acheter maintenant",
+  "mostPopular": "LE PLUS POPULAIRE",
+  "plans": [
+    {
+      "name": "Débutant",
+      "priceMonthly": "$0",
+      "price": 0,
+      "textCredits": 12,
+      "videoCredits": 2,
+      "description": "Pour les loisirs 🧑‍🎨",
+      "features": [
+        "12 témoignages texte",
+        "2 témoignages vidéo",
+        "Page publique Wall of Love",
+        "Transcription automatique des vidéos"
+      ]
+    },
+    {
+      "name": "Débutant Plus",
+      "priceMonthly": "$10",
+      "price": 10,
+      "textCredits": 40,
+      "videoCredits": 4,
+      "description": "Pour les petites équipes 🏡",
+      "features": [
+        "40 témoignages texte",
+        "4 témoignages vidéo",
+        "Page publique Wall of Love",
+        "Téléchargement des vidéos",
+        "Assistance par email"
+      ]
+    },
+    {
+      "name": "Premium",
+      "priceMonthly": "$30",
+      "price": 30,
+      "textCredits": 100,
+      "videoCredits": 10,
+      "description": "Pour les entreprises en croissance 📈",
+      "features": [
+        "100 témoignages texte",
+        "10 témoignages vidéo",
+        "Page publique Wall of Love",
+        "Analyses avancées",
+        "Assistance par email"
+      ]
+    },
+    {
+      "name": "Ultime",
+      "priceMonthly": "$45",
+      "price": 45,
+      "textCredits": 2000,
+      "videoCredits": 1000,
+      "description": "Pour les grandes entreprises 🚀",
+      "features": [
+        "2000 témoignages texte",
+        "1000 témoignages vidéo",
+        "Page publique Wall of Love",
+        "Analyses avancées",
+        "Contrats personnalisés",
+        "Assistance entreprise",
+        "Assistance par email"
+      ]
+    }
+  ]
+},
+"payment": {
+    "title": "Terminez votre commande",
+    "orderDetails": "Détails de la commande",
+    "plan": "Plan",
+    "textCredits": "Crédits texte",
+    "videoCredits": "Crédits vidéo",
+    "amount": "Montant",
+    "enterCardDetails": "Entrez les détails de votre carte",
+    "processing": "Traitement...",
+    "payNow": "Payer maintenant",
+    "receipt": {
+      "title": "Paiement réussi",
+      "message": "Merci pour votre paiement ! Votre abonnement est maintenant actif.",
+      "button": "Aller au tableau de bord"
+    },
+    "failure": {
+      "title": "Paiement échoué",
+      "message": "Malheureusement, votre paiement n'a pas pu être traité. Veuillez réessayer.",
+      "button": "Réessayer le paiement"
+    }
+  },
+     "receipt": {
+    "successTitle": "🎉 Hourra! Merci, votre paiement a été effectué avec succès!",
+    "premiumUser": "Vous êtes maintenant un utilisateur Premium!",
+    "paymentDetails": "Détails du paiement",
+    "name": "Nom",
+    "amountPaid": "Montant payé",
+    "textCredits": "Crédits texte",
+    "videoCredits": "Crédits vidéo",
+    "startJourney": "Commencez votre voyage!"
+  },
+    "failureDialog": {
+    "title": "Paiement échoué",
+    "message": "Malheureusement, votre paiement n'a pas pu être traité. Veuillez réessayer.",
+    "retryButton": "Réessayer le paiement"
+  },
+  "registerForm": {
+    "signUp": "S'inscrire",
+    "enterDetails": "Entrez vos informations pour créer un compte",
+    "firstName": "Prénom",
+    "firstNamePlaceholder": "Jane",
+    "lastName": "Nom de famille",
+    "lastNamePlaceholder": "Doe",
+    "username": "Nom d'utilisateur",
+    "usernamePlaceholder": "janedoe",
+    "email": "Email",
+    "emailPlaceholder": "jane@example.com",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "********",
+    "confirmPassword": "Confirmer le mot de passe",
+    "confirmPasswordPlaceholder": "********",
+    "signUpButton": "S'inscrire",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "signIn": "Se connecter",
+    "signUpForFree": "Inscrivez-vous gratuitement 🤗",
+    "freeCredits": "Vous recevrez 2 crédits vidéo et 12 crédits de témoignages texte GRATUITS !",
+    "successMessage": "Utilisateur enregistré avec succès !",
+    "errorMessage": "Échec de l'enregistrement de l'utilisateur. Veuillez réessayer."
+  },
+  "loginForm": {
+    "enterDetails": "Entrez vos informations pour vous connecter à votre compte",
+    "errorMessage": "Échec de la connexion! Veuillez réessayer.",
+    "successMessage": "Connexion réussie!",
+    "signInButton": "Se connecter",
+    "noAccount": "Vous n'avez pas de compte?",
+    "signUp": "S'inscrire"
+  },
+  "loginPage": {
+    "welcomeBack": "Bon retour 👋",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "signInButton": "Se connecter"
+  },
+  "profile": {
+    "defaultAvatar": "U",
+    "textCredits": "Crédits de texte :",
+    "videoCredits": "Crédits vidéo :"
+  }
+}

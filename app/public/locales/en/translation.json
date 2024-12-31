@@ -1,0 +1,258 @@
+{
+ "features": [
+  {
+    "title": "Collect and Display Testimonials",
+    "subtitle": "All in one solution",
+    "description": "Create a dedicated landing page for your business. Share the page link easily via email, social media, or SMS. Setup can be done in two minutes.",
+    "isComingSoon": false
+  },
+  {
+    "title": "Easy to Manage",
+    "subtitle": "A dashboard to manage all testimonials",
+    "description": "You will have a simple & clean dashboard to manage all testimonials in one place. It's like your email inbox, but designed for your social proof!",
+    "isComingSoon": false
+  },
+  {
+    "title": "More Social Proof",
+    "subtitle": "Not only text and video testimonials",
+    "description": "Manage testimonials from social media, video platforms, and review sites in a single place!",
+    "isComingSoon": false
+  },
+  {
+    "title": "Embed the Wall of Love",
+    "subtitle": "The best testimonials all in one place",
+    "description": "Showcase all your favorite testimonials. Embed it on your website in under a minute with no coding knowledge required!",
+    "isComingSoon": false
+  },
+  {
+    "title": "Track the Metrics",
+    "subtitle": "Understand how video testimonials are performing",
+    "description": "Track metrics from all embedded videos, help your marketing team understand performance, and promote the best-performing videos.",
+    "isComingSoon": true
+  }
+],
+"ourFeatures": "Our Features",
+"tryForFree": "Try it for Free",
+"comingSoon": "Coming Soon...",
+
+  "footer": {
+    "links": [
+      {
+        "text": "About",
+        "href": "#",
+        "ariaLabel": "About page"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "#",
+        "ariaLabel": "Privacy Policy page"
+      },
+      {
+        "text": "Contact Us",
+        "href": "#",
+        "ariaLabel": "Contact Us page"
+      }
+    ],
+    "copyright": "© {{year}} TrueVoices. All rights reserved."
+  },
+  "header": {
+    "title": "TrueVoices",
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "signIn": "Sign In",
+    "dropdown": {
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "upgrade": "Upgrade",
+      "logout": "Logout"
+    }
+  },
+"hero": {
+    "title": "Welcome to TrueVoices",
+    "subtitle": "Collect and showcase authentic testimonials from your customers with ease.",
+    "paragraph1": "Your customers’ voices are your most powerful marketing tool. With TrueVoices, you can effortlessly collect, manage, and embed testimonials—no coding required.",
+    "paragraph2": "Build trust and credibility through genuine feedback from satisfied customers. Set up your testimonial page in minutes and watch your brand thrive!",
+    "buttonSignUp": "Sign Up",
+    "buttonLearnMore": "Learn More"
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "members": [
+      {
+        "name": "Shreya Wanisha",
+        "image": "/TeamImages/ShreyaWanisha.jpeg",
+        "linkedin": "https://www.linkedin.com/in/shreya-wanisha/",
+        "bio": "Full-stack developer with a passion for building web applications. Expertise in Java, Spring Boot, React, and Node.js."
+      },
+      {
+        "name": "Maithili Wade",
+        "image": "/TeamImages/_DSC9226-Enhanced-NR-3.jpg",
+        "linkedin": "https://www.linkedin.com/in/maithili-wade/",
+        "bio": "Architect turned Software Engineer. Currently exploring the exciting intersection of technology and design."
+      },
+      {
+        "name": "Jay Vekariya",
+        "image": "/TeamImages/jay.jpeg",
+        "linkedin": "https://www.linkedin.com/in/jay-vekariya/",
+        "bio": "Full-stack developer focusing on React and Node.js."
+      },
+      {
+        "name": "Harshit Kant",
+        "image": "/TeamImages/harshit.jpeg",
+        "linkedin": "https://www.linkedin.com/in/harshit-kant-hk-0a87864b/",
+        "bio": "Passionate MERN Stack Software Engineer, with strong interest in Front-End Engineering, Test Automation, and Quality Assurance (QA)."
+      }
+    ]
+  },
+ "pricing": {
+  "title": "The easiest way to drive more sales for your business",
+  "subtitle": "Start with 12 text testimonials and 2 video testimonials on us. Upgrade only if you're satisfied!",
+  "getStarted": "Get Started",
+  "buyNow": "Buy Now",
+  "mostPopular": "MOST POPULAR",
+  "plans": [
+    {
+      "name": "Starter",
+      "priceMonthly": "$0",
+      "price": 0,
+      "textCredits": 12,
+      "videoCredits": 2,
+      "description": "For hobbies 🧑‍🎨",
+      "features": [
+        "12 text testimonials",
+        "2 video testimonials",
+        "Public Wall of Love page",
+        "Video auto transcription"
+      ]
+    },
+    {
+      "name": "Starter Plus",
+      "priceMonthly": "$10",
+      "price": 10,
+      "textCredits": 40,
+      "videoCredits": 4,
+      "description": "For small teams 🏡",
+      "features": [
+        "40 text testimonials",
+        "4 video testimonials",
+        "Public Wall of Love page",
+        "Video download",
+        "Email support"
+      ]
+    },
+    {
+      "name": "Premium",
+      "priceMonthly": "$30",
+      "price": 30,
+      "textCredits": 100,
+      "videoCredits": 10,
+      "description": "For growing businesses 📈",
+      "features": [
+        "100 text testimonials",
+        "10 video testimonials",
+        "Public Wall of Love page",
+        "Advanced Analytics",
+        "Email support"
+      ]
+    },
+    {
+      "name": "Ultimate",
+      "priceMonthly": "$45",
+      "price": 45,
+      "textCredits": 2000,
+      "videoCredits": 1000,
+      "description": "For large businesses 🚀",
+      "features": [
+        "2000 text testimonials",
+        "1000 video testimonials",
+        "Public Wall of Love page",
+        "Advanced Analytics",
+        "Custom contracts",
+        "Enterprise support",
+        "Email support"
+      ]
+    }
+  ]
+},
+  "payment": {
+    "title": "Complete Your Order",
+    "orderDetails": "Order Details",
+    "plan": "Plan",
+    "textCredits": "Text Credits",
+    "videoCredits": "Video Credits",
+    "amount": "Amount",
+    "enterCardDetails": "Enter Your Card Details",
+    "processing": "Processing...",
+    "payNow": "Pay Now",
+    "receipt": {
+      "title": "Payment Successful",
+      "message": "Thank you for your payment! Your subscription is now active.",
+      "button": "Go to Dashboard"
+    },
+    "failure": {
+      "title": "Payment Failed",
+      "message": "Unfortunately, your payment could not be processed. Please try again.",
+      "button": "Retry Payment"
+    }
+  },
+    "receipt": {
+    "successTitle": "🎉 Hooray! Thank you, your payment is successful!",
+    "premiumUser": "You're now a Premium User!",
+    "paymentDetails": "Payment Details",
+    "name": "Name",
+    "amountPaid": "Amount Paid",
+    "textCredits": "Text Credits",
+    "videoCredits": "Video Credits",
+    "startJourney": "Start your journey!"
+  },
+    "failureDialog": {
+    "title": "Payment Failed",
+    "message": "Unfortunately, your payment could not be processed. Please try again.",
+    "retryButton": "Retry Payment"
+  },
+  "registerForm": {
+    "signUp": "Sign Up",
+    "enterDetails": "Enter your details to create an account",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "Jane",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Doe",
+    "username": "Username",
+    "usernamePlaceholder": "janedoe",
+    "email": "Email",
+    "emailPlaceholder": "jane@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "********",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "********",
+    "signUpButton": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign In",
+    "signUpForFree": "Sign up for free 🤗",
+    "freeCredits": "You will receive 2 video credits and 12 text testimonial credits for FREE!",
+    "successMessage": "User registered successfully!",
+    "errorMessage": "Failed to register user. Please try again."
+  },
+  "loginForm": {
+    "enterDetails": "Enter your details to log in to your account",
+    "errorMessage": "Login failed! Please try again.",
+    "successMessage": "Login successful!",
+    "signInButton": "Sign In",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign Up"
+  },
+  "loginPage": {
+    "welcomeBack": "Welcome back 👋",
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Password",
+    "signInButton": "Sign In"
+  },
+    "profile": {
+    "defaultAvatar": "U",
+    "textCredits": "Text Credits:",
+    "videoCredits": "Video Credits:"
+  }
+}
