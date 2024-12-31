@@ -4,10 +4,10 @@
 
 This project was created and developed by a team of four contributors:
 
-- **Shreya Wanisha** - <wanisha.s@northeastern.edu>
+- **Shreya Wanisha** 
 - **Maithili Rajendra Wade** - <wade.mai@northeastern.edu>
-- **Jay Vekariya** - <vekariya.ja@northeastern.edu>
-- **Harshit Kant** - <kant.h@northeastern.edu>
+- **Jay Vekariya** 
+- **Harshit Kant** 
 
 ## PROJECT DESCRIPTION
 
