@@ -1,13 +1,8 @@
-# TrueVoice Project
+# TrueVoices - Testimonial Collection Application
 
 ## Contributors
 
-This project was created and developed by a team of four contributors:
-
-- **Shreya Wanisha** 
-- **Maithili Rajendra Wade** - <wade.mai@northeastern.edu>
-- **Jay Vekariya** 
-- **Harshit Kant** 
+- **Maithili Rajendra Wade** - <wade.mai@northeastern.edu> 
 
 ## PROJECT DESCRIPTION
 
